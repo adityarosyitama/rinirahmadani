@@ -5,8 +5,27 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Rini Rahmadani",
-  description: "Senior trainer handwriting analyst, konselor psikologi, hypnotherapist, Human Resources",
+  openGraph: {
+    title: "Rini Rahmadani",
+    description: "handwriting analyst, konselor psikologi, hypnotherapist, Human Resources",
+    url: 'https://metayearly.vercel.app/',
+    siteName: 'Next.js',
+    images: [
+      {
+        url: 'https://metayearly.vercel.app/',
+        width: 800,
+        height: 600,
+      },
+      {
+        url: 'https://metayearly.vercel.app/',
+        width: 1800,
+        height: 1600,
+        alt: 'My custom alt',
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
