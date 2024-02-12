@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   openGraph: {
     title: "Rini Rahmadani",
-    description: "handwriting analyst, konselor psikologi, hypnotherapist, Human Resources",
+    description: "Senior trainer, handwriting analyst, konselor psikologi, hypnotherapist, Human Resources",
     url: 'https://metayearly.vercel.app/',
     siteName: 'Next.js',
     images: [
